@@ -65,20 +65,20 @@ h1, h2, h3, h4, h5 {
 	font-style: italic;
 	color: #252529;
 	font-weight: 300;
-	-webkit-transform: rotate(-9deg);
-	-moz-transform:rotate(-9deg);
-	transform:rotate(-9deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	transform:rotate(-10deg);
 }
-header h1{font-size:70px; line-height:.8em; width:303px; text-align:right;}
+header h1{font-size:200px; line-height:.8em; width:303px; text-align:right;}
 header h1 span{color:#aaa;font-size:.3em;}
 header h1 span.highfinn{margin-right:5px;}
 header h1 span.daughtcaughm{font-size:.3em; line-height:56px; letter-spacing:.08em;}
 section h1 {
 	font-size: 30px;
 	line-height: .8em;
-	-webkit-transform: rotate(-9deg) translateY(23px);
-	-moz-transform: rotate(-9deg) translateY(23px);
-	transform: rotate(-9deg) translateY(23px);
+	-webkit-transform: rotate(-10deg) translateY(23px);
+	-moz-transform: rotate(-10deg) translateY(23px);
+	transform: rotate(-10deg) translateY(23px);
 }
 p{font-size:13px; line-height:1.615em;}
 
