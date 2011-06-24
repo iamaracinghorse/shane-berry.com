@@ -65,14 +65,51 @@ h1, h2, h3, h4, h5 {
 	font-style: italic;
 	color: #252529;
 	font-weight: 300;
-	-webkit-transform: rotate(-10deg);
+/*	-webkit-transform: rotate(-10deg);
 	-moz-transform:rotate(-10deg);
-	transform:rotate(-10deg);
+	transform:rotate(-10deg);*/
 }
-header h1{font-size:200px; line-height:.8em; width:303px; text-align:right;}
-header h1 span{color:#aaa;font-size:.3em;}
+header h1 {
+	font-size: 200px;
+	line-height: .8em;
+/*	text-align: right;*/
+	position:relative;
+	float:left;
+	-webkit-transform: perspective(550) rotateY(63deg) rotateZ(-10deg);
+/*	-webkit-mask-box-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+/*	-webkit-text-fill-color:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+	background:-webkit-gradient(linear, left top, 80% top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	-webkit-background-clip:text;
+	color:transparent;
+	letter-spacing:;
+}
+header h1::before{
+	content:'Berry';
+	position:absolute;
+	top:0;
+	left:0;
+	padding-left:333px;
+	padding-right:10px;
+	color:transparent;
+	text-shadow:0 0 25px rgba(0,0,0,.4);
+	height:1.2em;
+	-webkit-mask-box-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.9)));
+}
+
+
+header h1 span{/*color:#aaa;*/font-size:.3em;}
 header h1 span.highfinn{margin-right:5px;}
-header h1 span.daughtcaughm{font-size:.3em; line-height:56px; letter-spacing:.08em;}
+header h1 span.daughtcaughm{font-size:.3em; line-height:56px; letter-spacing:.08em; position:relative;}
+header h1 span.daughtcaughm::after{
+	content:'.com';
+	position:absolute;
+	top:0;
+	left:0;
+	line-height:64px;
+	color:transparent;
+	text-shadow:0 0 25px rgba(0,0,0,.3);
+	-webkit-mask-box-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,.9)), to(rgba(0,0,0,.8)));
+}
 section h1 {
 	font-size: 30px;
 	line-height: .8em;
