@@ -76,11 +76,15 @@ header h1 {
 	position:relative;
 	float:left;
 	-webkit-transform: perspective(550) rotateY(63deg) rotateZ(-10deg);
-/*	-webkit-mask-box-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
-/*	-webkit-text-fill-color:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+	-moz-transform:rotate(-10deg);
+
 	background:-webkit-gradient(linear, left top, 80% top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	background:-moz-gradient(linear, left top, 80% top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 	-webkit-background-clip:text;
-	color:transparent;
+	-moz-background-clip:text;
+	background-clip:text;
+	
+	-webkit-text-fill-color:transparent;
 	letter-spacing:;
 }
 header h1::before{
