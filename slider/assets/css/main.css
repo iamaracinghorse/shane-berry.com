@@ -219,7 +219,7 @@ input[type="range"]::-webkit-slider-thumb:before {
 }
 
 .overlay .modal-window {
-    margin: 40px;
+    margin: 30px;
     padding: 30px 40px;
     background: #FFF;
     border-radius: 5px;
