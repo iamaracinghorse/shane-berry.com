@@ -126,9 +126,9 @@ p{font-size:13px; line-height:1.615em;}
 /*------------------------------------------------------------------
 layout
 ------------------------------------------------------------------*/
-header#siteHeader{padding:60px 0; width:1000px;margin:0 auto; position:relative;}
+header#siteHeader{padding:60px 0;/* width:1000px;margin:0 auto; */position:relative;}
 header#siteHeader .rHold{position:absolute; top:0; left:0; width:100%; height:200px; z-index:-1;}
-div#main{width:1000px; margin:0 auto;}
+div#main{/*width:1000px;*/ margin:0 auto;}
 div#main section{height:100%; overflow:hidden; margin-bottom:30px;}
 div#main section hgroup{width:303px; float:left; padding-right:30px; text-align:right; }
 div#main section div.text{width:666px; float:right;}
