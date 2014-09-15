@@ -132,7 +132,7 @@ h3 {
 .totals .amount {
     float: left;
     width: 25%;
-    font-size: 21px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -253,10 +253,13 @@ input[type="range"]::-webkit-slider-thumb:before {
 .overlay.show-success #success-window {
     opacity: 1;
     transform: scale(1.0);
+
+    transition-delay: 0.7s;
+    -webkit-transition-delay: 0.7s;
 }
 
 .overlay .modal-window p{
-    font-size:18px;
+    font-size:14px;
     padding-bottom:20px;
     border-bottom:1px solid #dedede;
     margin:20px 0 30px;
@@ -267,10 +270,6 @@ input[type="range"]::-webkit-slider-thumb:before {
 #css-loader {
     width:62px;
     height:77px;
-}
-
-#congrats-loader {
-
 }
 
 #floatingBarsG{
