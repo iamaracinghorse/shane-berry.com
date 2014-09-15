@@ -235,7 +235,7 @@ input[type="range"]::-webkit-slider-thumb:before {
     margin:0;
     top:40px;
     left:50%;
-    margin-left:-71px;
+    margin-left:-61px;
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
 }
