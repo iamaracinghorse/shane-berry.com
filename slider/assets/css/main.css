@@ -63,7 +63,7 @@ h3 {
     background-image: linear-gradient(135deg,#3b495d,#6a7990);
     color:#FFF;
     text-align: center;
-    padding:25px 0;
+    padding:15px 0;
     text-shadow:0 1px 1px rgba(0,0,0,0.6);
 }
 
@@ -103,7 +103,7 @@ h3 {
     float:left;
     width:25%;
     text-align: center;
-    font-size:21px;
+    font-size:18px;
     line-height: 40px;
     margin-top:-8px;
     border:1px solid #e5e5e5;
