@@ -220,7 +220,7 @@ input[type="range"]::-webkit-slider-thumb:before {
 
 .overlay .modal-window {
     margin: 30px;
-    padding: 30px 40px;
+    padding: 30px;
     background: #FFF;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
