@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>LendUp - Get Back to Normal in Around 15 Minutes</title>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="siteHeader">
+    <img src="assets/images/logo_twocolor.svg"  />
+  </header>
+  <div id="main">
+    <div class="title-bar">
+      <h1>Welcome to LendUp!</h1>
+    </div>
+    <div class="loanForm">
+      <form>
+        <div class="input">
+          <label><span class="ss-icon">&#x1F4B2;</span> Loan Amount</label>
+          <div class="clearfix">
+            <div class="input-wrap">
+              <!-- <label>Loan Amount</label> -->
+              <input type="range" name="amount" id="amount" value="200" min="100" max="250" step="10">
+            </div>
+            <div class="readout">$200</div>
+          </div>
+        </div>
+
+        <div class="input">
+          <label><span class="ss-icon">&#x1F4C5;</span> Loan Length</label>
+          <div class="clearfix">
+            <div class="input-wrap">
+              <!-- <label>Loan Length</label> -->
+              <input type="range" name="days" id="days" value="14" min="7" max="30">
+            </div>
+            <div class="readout">14 days</div>
+          </div>
+        </div>
+        
+        <div class="totals clearfix">
+          <div class="label">
+            Your Total Repayment:
+          </div>
+          <div class="amount">$<span id="total"></span></div>
+        </div>
+
+        <div>
+          <a href="#get_it" class="big-button" id="money-button">Get Your Money Now</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/html" class="overlay-template">
+<div class="overlay">
+
+  <div id="css-loader" class="modal-window">
+    <div id="floatingBarsG">
+      <div class="blockG" id="rotateG_01">
+      </div>
+      <div class="blockG" id="rotateG_02">
+      </div>
+      <div class="blockG" id="rotateG_03">
+      </div>
+      <div class="blockG" id="rotateG_04">
+      </div>
+      <div class="blockG" id="rotateG_05">
+      </div>
+      <div class="blockG" id="rotateG_06">
+      </div>
+      <div class="blockG" id="rotateG_07">
+      </div>
+      <div class="blockG" id="rotateG_08">
+      </div>
+    </div>
+  </div>
+
+  <div id="success-window" class="modal-window">
+    <h2>Congratulations! <span class="ss-icon" style="color:#508020">&#x2713;</span></h2>
+    <p>We've sent the money to your bank account!</p>
+    <a href="#close" class="big-button" id="close-modal">Continue</a>
+  </div>
+</div>
+</script>
+</html>
+
+

@@ -1,0 +1,388 @@
+/*------------------------------------------------------------------
+eric meyers reset
+------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0b1 | 201101
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:;content:none;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+/*------------------------------------------------------------------
+end reset
+------------------------------------------------------------------*/
+body{
+    color:#424242;
+    font-size:11px;
+    line-height:1.4;
+    background:#FFF;
+    font-family: 'museo', helvetica, sans-serif;
+    height:100%;
+    width:100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a{color:#AD2D28; text-decoration:none;}
+
+h1,h2,h3 {
+    font-family: 'adelle-semibold';
+    line-height:1.5;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+.siteHeader {
+    height:54px;
+    background: #151515;
+    text-align:center;
+}
+.siteHeader img {
+    height:40px;
+    margin-top: 6px;
+}
+.title-bar {
+    background-image: linear-gradient(135deg,#3b495d,#6a7990);
+    color:#FFF;
+    text-align: center;
+    padding:25px 0;
+    text-shadow:0 1px 1px rgba(0,0,0,0.6);
+}
+
+.loanForm {
+    padding:0 20px;
+    margin-top:10px;
+}
+
+.loanForm label {
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color:#e27666;
+    margin-bottom:10px;
+    display: block;
+}
+
+.loanForm .input {
+    padding:10px 0;
+}
+.loanForm .input .ss-icon {
+    position: relative;
+    bottom:-1px;
+}
+
+.loanForm .input-wrap {
+    width:70%;
+    margin-right:5%;
+    float: left;
+}
+.loanForm .input-wrap input {
+    width:100%;
+    margin:10px 0;
+}
+
+.loanForm .readout {
+    float:left;
+    width:25%;
+    text-align: center;
+    font-size:21px;
+    line-height: 40px;
+    margin-top:-8px;
+    border:1px solid #e5e5e5;
+    border-radius:3px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.totals {
+    margin:20px 0 ;
+    /*background: #f5f5f5;*/
+    border-top:1px solid #e5e5e5;
+    border-left:none;
+    border-right:none;
+    padding:20px 0 0;
+}
+.totals .label {
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+    font-size: 14px;
+    line-height:29px;
+    text-align: right;
+    color:#858585;
+}
+.totals .amount {
+    float: left;
+    width: 25%;
+    font-size: 21px;
+    text-align: center;
+}
+
+.big-button {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #8ecb64;
+    background-image: linear-gradient(to bottom,#98da6c,#6B9A4A);
+    background-repeat: repeat-x;
+    display: block;
+    border-radius:3px;
+    border:1px solid;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    font-size:21px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align:center;
+}
+
+/*ranges */
+
+input[type="range"]{
+   -webkit-appearance:none;
+   width: 130px;
+   height: 6px;
+   border-radius: 8px;
+   background:#e5e5e5;
+}
+input[type="range"]:focus {
+    outline:none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+ -webkit-appearance:none;
+ background:#5d6b7e;
+ height:40px;
+ width:40px;
+ border:5px solid #FFF;
+ border-radius:50%;
+ box-shadow:0 0 4px rgba(0,0,0,0.4);
+ position: relative;
+}
+
+input[type="range"]::-webkit-slider-thumb:after,
+input[type="range"]::-webkit-slider-thumb:before
+ {
+    left: 0;
+    border-color: transparent transparent transparent #FFF;
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    border-style: solid;
+    border-color: transparent #FFF transparent transparent;
+    border-width: 6px;
+    opacity: .7;
+}
+input[type="range"]::-webkit-slider-thumb:before {
+    left: auto;
+    border-color: transparent transparent transparent #FFF;
+    right: 0;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:-webkit-radial-gradient(center 50%, circle farthest-corner, rgba(255,255,255,0.5), rgba(255,255,255,0.9));
+    transition:all 0.2s ease-out;
+    opacity:0;
+}
+
+.overlay.shown {
+    opacity: 1;
+}
+
+.overlay .modal-window {
+    margin: 40px;
+    padding: 30px 40px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    opacity: 0;
+
+    transition:all 0.2s ease-out 0.2s;
+    -webkit-transition:all 0.2s ease-out 0.2s;
+
+}
+#css-loader {
+    position: absolute;
+    margin:0;
+    top:40px;
+    left:50%;
+    margin-left:-71px;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+}
+
+.overlay.show-loader #css-loader {
+    opacity: 1;
+    transform: scale(1.0);
+}
+
+#success-window {
+    transform: scale(0.9);
+    transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.overlay.show-success #success-window {
+    opacity: 1;
+    transform: scale(1.0);
+}
+
+.overlay .modal-window p{
+    font-size:18px;
+    padding-bottom:20px;
+    border-bottom:1px solid #dedede;
+    margin:20px 0 30px;
+    color:#666;
+}
+
+/*start css loader*/
+#css-loader {
+    width:62px;
+    height:77px;
+}
+
+#congrats-loader {
+
+}
+
+#floatingBarsG{
+position:relative;
+width:62px;
+height:77px}
+
+.blockG{
+position:absolute;
+background-color:#FFFFFF;
+width:7px;
+height:24px;
+-webkit-border-radius:8px 8px 0 0;
+-webkit-transform:scale(0.4);
+-webkit-animation-name:fadeG;
+-webkit-animation-duration:0.48s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+border-radius:8px 8px 0 0;
+transform:scale(0.4);
+animation-name:fadeG;
+animation-duration:0.48s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#rotateG_01{
+left:0;
+top:28px;
+-webkit-animation-delay:0.18s;
+-webkit-transform:rotate(-90deg);
+animation-delay:0.18s;
+transform:rotate(-90deg);
+}
+
+#rotateG_02{
+left:8px;
+top:10px;
+-webkit-animation-delay:0.24s;
+-webkit-transform:rotate(-45deg);
+animation-delay:0.24s;
+transform:rotate(-45deg);
+}
+
+#rotateG_03{
+left:26px;
+top:3px;
+-webkit-animation-delay:0.3s;
+-webkit-transform:rotate(0deg);
+animation-delay:0.3s;
+transform:rotate(0deg);
+}
+
+#rotateG_04{
+right:8px;
+top:10px;
+-webkit-animation-delay:0.36s;
+-webkit-transform:rotate(45deg);
+animation-delay:0.36s;
+transform:rotate(45deg);
+}
+
+#rotateG_05{
+right:0;
+top:28px;
+-webkit-animation-delay:0.42000000000000004s;
+-webkit-transform:rotate(90deg);
+animation-delay:0.42000000000000004s;
+transform:rotate(90deg);
+}
+
+#rotateG_06{
+right:8px;
+bottom:7px;
+-webkit-animation-delay:0.48s;
+-webkit-transform:rotate(135deg);
+animation-delay:0.48s;
+transform:rotate(135deg);
+}
+
+#rotateG_07{
+bottom:0;
+left:26px;
+-webkit-animation-delay:0.5399999999999999s;
+-webkit-transform:rotate(180deg);
+animation-delay:0.5399999999999999s;
+transform:rotate(180deg);
+}
+
+#rotateG_08{
+left:8px;
+bottom:7px;
+-webkit-animation-delay:0.6s;
+-webkit-transform:rotate(-135deg);
+animation-delay:0.6s;
+transform:rotate(-135deg);
+}
+
+@-webkit-keyframes fadeG{
+0%{
+background-color:#5D6B7E}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@keyframes fadeG{
+0%{
+background-color:#5D6B7E}
+
+100%{
+background-color:#FFFFFF}
+/*end css loader*/
+

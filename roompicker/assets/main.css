@@ -1,0 +1,225 @@
+/*-----------------------------------------------------------------------------------
+meyer's reset
+-----------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License:none (public domain)
+*/
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*-----------------------------------------------------------------------------------
+end reset
+-----------------------------------------------------------------------------------*/
+body{
+/*  background-color: #C4D8CE;*/
+/*  background-image: -webkit-gradient(linear, left top, left bottom, from(#87D7CF), to(#C4D8CE));
+  background-image: -webkit-linear-gradient(top, #87D7CF, #C4D8CE);
+  background-image:    -moz-linear-gradient(top, #87D7CF, #C4D8CE);
+  background-image:      -o-linear-gradient(top, #87D7CF, #C4D8CE);
+  background-image:         linear-gradient(to bottom, #87D7CF, #C4D8CE);*/
+  color:#424242;
+  background:#FFFCFE;
+  font-family:'franklin-gothic-urw', 'Helvetica Neue', Helvetica, Arial;
+  font-size:16px;
+  line-height:21px;
+}
+.pageHeader{
+  background-color:#C4D8CE;
+
+}
+.pageHeader .l-wrap{
+  background:url('images/palm.png') right bottom no-repeat;
+  padding:80px 0;
+  
+}
+.main{
+  width:100%;
+  margin:0 auto;
+  background:#EFEFEF;
+}
+.l-wrap{
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+}
+.main .l-wrap{
+  padding-top:40px;
+}
+
+/*type*/
+h1{
+  font-family: "ff-prater-script-web";
+  color:#D5382F;
+  font-size:60px;
+  line-height:60px;
+}
+h2, h3, h4{
+  font-family:"alternate-gothic-no-1-d", Impact, Helvetica;
+  text-transform:uppercase;
+  letter-spacing:-1px;
+  color:#AA9F97;
+}
+h2{
+  font-size:34px;
+  line-height:48px;
+}
+h3{
+  font-size:28px;
+  line-height:48px;
+}
+h3{
+  font-size:21px;
+  line-height:24px;
+}
+strong{
+  font-weight:700;
+}
+a{
+  color:#87D7CF;
+  text-decoration:none;
+}
+a:hover{
+  color:#D5382F;
+}
+
+a.button{
+  font-size: 31px;
+  color: #424242;
+  min-width: 40px;
+  width:95px;
+  height:21px;
+  text-align: center;
+  -webkit-appearance: none;
+  font-family:"alternate-gothic-no-1-d", Impact, Helvetica;
+  
+  text-transform: uppercase;
+  border: 1px solid #AA9F97;
+  padding: 20px;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+  background-repeat: no-repeat;
+  background-color: #7EB459;
+  
+  text-shadow:0 1px 0 #fff;
+  background-color: #FFFFFF;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#ECECEA));
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #ECECEA);
+  background-image:    -moz-linear-gradient(top, #FFFFFF, #ECECEA);
+  background-image:      -o-linear-gradient(top, #FFFFFF, #ECECEA);
+  background-image:         linear-gradient(to bottom, #FFFFFF, #ECECEA);
+
+  -webkit-transition: all .1s ease-out;
+  -moz-transition: all .1s ease-out;
+  -ms-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+a.button.s-picked{
+  color:#FFF;
+  text-shadow:0;
+  cursor: default;
+}
+
+.pageIntro{
+/*  text-align:center;
+  margin:0 auto 60px;*/
+  
+  max-width:63%;
+  padding:20px 0 60px 37%;
+  
+  background:url('images/flag.png')left bottom no-repeat;
+}
+.pageIntro h2{
+  font-size:48px;
+}
+.intro h2,
+.intro h3{
+  float:left;
+  width:18%;
+}
+.intro{
+  height:100%;
+  overflow:hidden;
+  clear:both;
+  padding-bottom:30px;
+}
+.intro p{
+  float:left;
+  max-width:66%;
+}
+
+.red{
+  color:#D5382F;
+}
+.blue{
+  color:#35506A;
+}
+.teal{
+  color:#87D7CF;
+}
+
+.button.red{
+  background:#D5382F;
+}
+.button.blue{
+  background:#35506A;
+}
+.button.teal{
+  background:#87D7CF;
+}
+
+.pickerBox{
+  padding:20px 0 80px;
+  background:#FFFCFE;
+}
+
+.pickerBox-list{
+  width:100%;
+  border-top:1px dashed #CDCDCD;
+  border-bottom:1px dashed #CDCDCD;
+  padding:20px 0 30px;
+  margin:10px 0 30px;
+  clear:both;
+}
+.pickerBox-list li{
+  display:inline-block;
+  text-align:center;
+  width:33%;
+  padding:20px 0;
+}
+.pickerBox-list li h3{
+  font-family: "ff-prater-script-web";
+  color: #D5382F;
+  text-transform:none;
+  margin-bottom:20px;
+}
+.disclaimer{
+  text-align:right;
+  
+}
