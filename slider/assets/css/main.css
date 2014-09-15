@@ -243,16 +243,19 @@ input[type="range"]::-webkit-slider-thumb:before {
 .overlay.show-loader #css-loader {
     opacity: 1;
     transform: scale(1.0);
+    -webkit-transform: scale(1.0);
 }
 
 #success-window {
     transform: scale(0.9);
+    -webkit-transform: scale(0.9);
     transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .overlay.show-success #success-window {
     opacity: 1;
     transform: scale(1.0);
+    -webkit-transform: scale(1.0);
 
     transition-delay: 0.7s;
     -webkit-transition-delay: 0.7s;
