@@ -137,6 +137,12 @@ h3 {
     text-align: center;
 }
 
+#lengthInput {
+    border-bottom:1px solid #e5e5e5;
+    margin-bottom:50px;
+    padding-bottom:50px;
+}
+
 .big-button {
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
@@ -154,6 +160,10 @@ h3 {
 }
 .big-button:active {
     background:#6B9A4A;
+}
+#money-button {
+    padding-top:8px;
+    padding-bottom:8px;
 }
 
 /*ranges */
@@ -178,6 +188,13 @@ input[type="range"]::-webkit-slider-thumb{
  border-radius:40px;
  box-shadow:0 0 4px rgba(0,0,0,0.4);
  position: relative;
+ -webkit-transition:all 0.05s ease-out;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+    height:50px;
+    width:50px;
+    /*border-width:10px;*/
 }
 
 input[type="range"]::-webkit-slider-thumb:after,
