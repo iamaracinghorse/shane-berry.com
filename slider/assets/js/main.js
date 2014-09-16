@@ -92,7 +92,7 @@ var handleChanges = function(){
 }
 
 $(document).ready(function() {
-   $('#money-button').on('click', function(e){
+   $('#money-button').on('touchstart', function(e){
         e.preventDefault();
         showOverlay();
     });
