@@ -63,13 +63,13 @@ h3 {
     background-image: linear-gradient(135deg,#3b495d,#6a7990);
     color:#FFF;
     text-align: center;
-    padding:24px 0;
+    padding:30px 0;
     text-shadow:0 1px 1px rgba(0,0,0,0.6);
 }
 
 .loanForm {
     padding:0 20px;
-    margin-top:20px;
+    margin-top:40px;
 }
 
 .loanForm label {
@@ -140,7 +140,7 @@ h3 {
 #lengthInput {
     border-bottom:1px solid #e5e5e5;
     margin-bottom:50px;
-    padding-bottom:50px;
+    padding-bottom:60px;
 }
 
 .big-button {
