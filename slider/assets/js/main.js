@@ -46,7 +46,7 @@ var showOverlay = function(){
     // show success-modal
     setTimeout(function(){
         overlay.removeClass('show-loader').addClass('show-success');
-    }, 1500);
+    }, 1000);
 
     $('#close-modal').on('click', function(e){
         e.preventDefault();
