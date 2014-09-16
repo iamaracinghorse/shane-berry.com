@@ -41,7 +41,7 @@ var showOverlay = function(){
     // show overlay and loader
     setTimeout(function(){
         overlay.addClass('shown show-loader');
-    }, 200);
+    }, 50);
 
     // show success-modal
     setTimeout(function(){
@@ -92,7 +92,7 @@ var handleChanges = function(){
 }
 
 $(document).ready(function() {
-   $('#money-button').on('touchstart', function(e){
+   $('#money-button').on('click', function(e){
         e.preventDefault();
         showOverlay();
     });
